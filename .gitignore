@@ -178,4 +178,5 @@ local_settings.py
 db.sqlite3
 config/settings.py
 signals_v2/migrations
+signals_v3/migrations
 .idea/
