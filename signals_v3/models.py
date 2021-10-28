@@ -15,6 +15,9 @@ class Signal(models.Model):
 
 
 class SignalSet(models.Model):
+    class params:
+        db = 'signals_v3'
+
     _id = dm.ObjectIdField()
     signals = dm.ArrayField(model_container=Signal)
     objects = dm.DjongoManager()
